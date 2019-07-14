@@ -9,12 +9,14 @@ import { faGithub, faTwitter, faFacebook } from '@fortawesome/free-brands-svg-ic
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { IntroduceComponent } from './introduce/introduce.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    IntroduceComponent
   ],
   imports: [
     BrowserModule,
